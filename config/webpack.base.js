@@ -93,14 +93,6 @@ const webpackConfig = {
             use: BasicsCssLoaders,
           },
           {
-            test: /\.less$/,
-            ...includeOptions,
-            use: [
-              ...BasicsCssLoaders,
-              'less-loader'
-            ],
-          },
-          {
             test: /\.(js|jsx)$/,
             use: [
               {

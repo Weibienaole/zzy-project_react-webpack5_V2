@@ -1,10 +1,10 @@
 
-# zzy-react-project(webpack5)
+# zzy-project(webpack5)
 # 基于react webpack为主的移动端项目基础框架。
-## 当然，可以将react部分剔除，改为vue也是可以使用的
 
 # 本项目设置了 DllPlugin(react、react-dom)，在public中已经打包了一份，如果更改webpack的Dllplugin配置，需先 yarn dll 重新进行编译，而后再 yarn build
 
+# 技术栈：react,react-router/-dom,webpack5,react-redux,immutable,axios,styled-components,antd
 # 亮点
 - 极速打包
 - 尽我所能的缩小首屏加载时常(prod)
